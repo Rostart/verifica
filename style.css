@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+#login-page,
+#dashboard {
+  text-align: center;
+  font-size: 24px;
+}
+
+#dashboard {
+  max-width: 400px;
+}
+
+#loginButton {
+  background-color: green;
+  color: white;
+}
+
+#logoutButton {
+  background-color: red;
+  color: white;
+}

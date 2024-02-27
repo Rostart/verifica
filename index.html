@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login App</title>
+  </head>
+  <body>
+    <div id="login-page">
+      <label for="username">Username:</label>
+      <input type="text" id="username" />
+      <button id="loginButton">Login</button>
+    </div>
+
+    <div id="dashboard" style="display: none">
+      <h2>Benvenuto <span id="loggedInUser"></span>!</h2>
+      <p>Accesso <span id="loginCount"></span> totale</p>
+      <p>Ultimo accesso <span id="lastLogin"></span></p>
+      <button id="logoutButton">Logout</button>
+
+      <h3>Accessi eseguiti:</h3>
+      <ul id="previousLogins"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
